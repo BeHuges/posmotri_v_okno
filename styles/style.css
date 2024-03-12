@@ -219,13 +219,14 @@ ol {
   letter-spacing: 0em;
   text-align: left;
   width: 225px;
+  color: white;
   border: transparent;
   appearance: none;
   border-top: 1px #ffffff solid;
   border-bottom: 1px #ffffff solid;
 }
 
-.search-form__textfield::first-line {
+.search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
